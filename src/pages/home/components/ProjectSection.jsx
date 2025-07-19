@@ -1,4 +1,4 @@
-import projects from "../assets/projects.json";
+import projects from "../../../assets/projects.json";
 
 function Project({ title, description, image }) {
   return (
@@ -37,7 +37,7 @@ function AltnProjects({ title, description, image, index }) {
                 <p>{description}</p>
               </div>
             </>
-          )}    
+          )}
         </div>
       </div>
     </>
@@ -47,16 +47,16 @@ function AltnProjects({ title, description, image, index }) {
 export default function ProjectSection() {
   return (
     <>
-        {projects.map((project, index) => (
-          <div className="col" key={index}>
-            <AltnProjects
-              title={project.title}
-              description={project.description}
-              image={project.image}
-              index={index}
-              />
-          </div>
-        ))}
+      {projects.map((project, index) => (
+        <div className="col" key={index}>
+          <AltnProjects
+            title={project.title}
+            description={project.description}
+            image={project.image}
+            index={index}
+          />
+        </div>
+      ))}
     </>
   );
 }
