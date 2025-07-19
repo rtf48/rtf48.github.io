@@ -15,7 +15,7 @@ export default function Home() {
       <HomeNavBar skillsRef={skillsRef} projectRef={projectRef}/>
       <HeroSection />
 
-      <JumpableSection ref={skillsRef} title="Skills" Content={<CardGrid />} bgcolor="bg-dark-subtle" />
+      <JumpableSection ref={skillsRef} title="Skills" Content={<CardGrid />} bgcolor="bg-light" />
       <JumpableSection ref={projectRef} title="Projects" Content={<ProjectSection />}/>
     </>
   );

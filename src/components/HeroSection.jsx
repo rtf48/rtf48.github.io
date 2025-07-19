@@ -1,9 +1,9 @@
 export default function HeroSection() {
   return (
     <>
-      <section className="pt-5 pb-5">
+      <section>
         <div className="container-fluid mt-3 md-3 ms-3 me-3">
-          <div className="row align-items-center">
+          <div className="row align-items-center min-vh-100">
             <div className="col">
               <div className="hero-section-text">
                 <h1 className="text-end">Richard Fischer</h1>
