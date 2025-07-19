@@ -1,5 +1,8 @@
 import React from "react";
 
+import ContactForm from "./ContactForm";
+
+
 function ScrollButton({ targetRef, label }) {
   return (
     <button
@@ -37,7 +40,7 @@ export default function HomeNavBar({ skillsRef, projectRef }) {
               <ScrollButton targetRef={projectRef} label="Projects" />
             </li>
             <li className="nav-item col">
-              <ScrollButton targetRef={projectRef} label="Contact" />
+              <ContactForm />
             </li>
           </ul>
         </div>
