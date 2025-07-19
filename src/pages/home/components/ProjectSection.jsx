@@ -17,10 +17,10 @@ function AltnProjects({ title, description, image, index }) {
     <>
       <div className="container-fluid g-0">
         <div className="row mt-5 mb-5">
-          {index % 2 === 0 ? (
+          {index % 2 === 1 ? (
             <>
               <div className="col-md-8">
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{description}</p>
               </div>
               <div className="col">
@@ -33,7 +33,7 @@ function AltnProjects({ title, description, image, index }) {
                 <img src={image} alt={title} className="img-fluid rounded" />
               </div>
               <div className="col-md-8">
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{description}</p>
               </div>
             </>

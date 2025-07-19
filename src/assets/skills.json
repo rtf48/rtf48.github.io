@@ -1,38 +1,37 @@
 [
-    {
-      "image": "src/assets/747SCA.jpg",
-      "title": "React Projects",
-      "description": "Explore a collection of my personal and professional React projects."
-    },
-    {
-      "image": "src/assets/747SCA.jpg",
-      "title": "Machine Learning",
-      "description": "Check out models and data visualizations built using Python and ML libraries."
-    },
-    {
-        "image": "src/assets/747SCA.jpg",
-        "title": "Machine Learning",
-        "description": "Check out models and data visualizations built using Python and ML libraries."
-      },
-    {
-      "image": "src/assets/747SCA.jpg",
-      "title": "Machine Learning",
-      "description": "Check out models and data visualizations built using Python and ML libraries."
-    },
-    {
-        "image": "src/assets/747SCA.jpg",
-        "title": "Machine Learning",
-        "description": "Check out models and data visualizations built using Python and ML libraries."
-      },
-      {
-        "image": "src/assets/747SCA.jpg",
-        "title": "Machine Learning",
-        "description": "Check out models and data visualizations built using Python and ML libraries."
-      },
-    
-    {
-      "image": "src/assets/747SCA.jpg",
-      "title": "Game Dev Experiments",
-      "description": "A set of prototypes and games I've built in Unity and WebGL."
-    }
-  ]
+  {
+    "image": "src/assets/747SCA.jpg",
+    "title": "React Projects",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+  },
+  {
+    "image": "src/assets/747SCA.jpg",
+    "title": "Machine Learning",
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Integer ac sem."
+  },
+  {
+    "image": "src/assets/747SCA.jpg",
+    "title": "Machine Learning",
+    "description": "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus."
+  },
+  {
+    "image": "src/assets/747SCA.jpg",
+    "title": "Machine Learning",
+    "description": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla porttitor accumsan tincidunt."
+  },
+  {
+    "image": "src/assets/747SCA.jpg",
+    "title": "Machine Learning",
+    "description": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus."
+  },
+  {
+    "image": "src/assets/747SCA.jpg",
+    "title": "Machine Learning",
+    "description": "Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus."
+  },
+  {
+    "image": "src/assets/747SCA.jpg",
+    "title": "Game Dev Experiments",
+    "description": "Phasellus blandit leo ut odio. Etiam porta sem malesuada magna mollis euismod."
+  }
+]
