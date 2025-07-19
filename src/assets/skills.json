@@ -1,0 +1,38 @@
+[
+    {
+      "image": "src/assets/747SCA.jpg",
+      "title": "React Projects",
+      "description": "Explore a collection of my personal and professional React projects."
+    },
+    {
+      "image": "src/assets/747SCA.jpg",
+      "title": "Machine Learning",
+      "description": "Check out models and data visualizations built using Python and ML libraries."
+    },
+    {
+        "image": "src/assets/747SCA.jpg",
+        "title": "Machine Learning",
+        "description": "Check out models and data visualizations built using Python and ML libraries."
+      },
+    {
+      "image": "src/assets/747SCA.jpg",
+      "title": "Machine Learning",
+      "description": "Check out models and data visualizations built using Python and ML libraries."
+    },
+    {
+        "image": "src/assets/747SCA.jpg",
+        "title": "Machine Learning",
+        "description": "Check out models and data visualizations built using Python and ML libraries."
+      },
+      {
+        "image": "src/assets/747SCA.jpg",
+        "title": "Machine Learning",
+        "description": "Check out models and data visualizations built using Python and ML libraries."
+      },
+    
+    {
+      "image": "src/assets/747SCA.jpg",
+      "title": "Game Dev Experiments",
+      "description": "A set of prototypes and games I've built in Unity and WebGL."
+    }
+  ]

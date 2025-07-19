@@ -1,32 +1,62 @@
-import React, { forwardRef } from "react";
+import projects from "../assets/projects.json";
 
-
-function Project({ name, description, image }) {
+function Project({ title, description, image }) {
   return (
     <>
-      <h2>{name}</h2>
+      <h2>{title}</h2>
       <p>{description}</p>
-      <img src={image} alt={name} />
+      <div className="">
+        <img src={image} alt={title} className="img-fluid" />
+      </div>
     </>
   );
 }
 
-const ProjectSection = forwardRef((props, ref) => {
+function AltnProjects({ title, description, image, index }) {
   return (
     <>
-      <section className="project-title" ref={ref}>
-          <h1>Projects:</h1>
-      </section>
-      <section className="project-list">
-        
-        <Project
-          name="Project 1"
-          description="Description 1"
-          image="src/assets/react.svg"
-        />
-      </section>
+      <div className="container-fluid g-0">
+        <div className="row mt-5 mb-5">
+          {index % 2 === 0 ? (
+            <>
+              <div className="col-md-8">
+                <h2>{title}</h2>
+                <p>{description}</p>
+              </div>
+              <div className="col">
+                <img src={image} alt={title} className="img-fluid rounded" />
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="col">
+                <img src={image} alt={title} className="img-fluid rounded" />
+              </div>
+              <div className="col-md-8">
+                <h2>{title}</h2>
+                <p>{description}</p>
+              </div>
+            </>
+          )}    
+        </div>
+      </div>
     </>
   );
-})
+}
 
-export default ProjectSection;
+export default function ProjectSection() {
+  return (
+    <>
+        {projects.map((project, index) => (
+          <div className="col" key={index}>
+            <AltnProjects
+              title={project.title}
+              description={project.description}
+              image={project.image}
+              index={index}
+              />
+          </div>
+        ))}
+    </>
+  );
+}

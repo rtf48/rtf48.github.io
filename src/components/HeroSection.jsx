@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <>
-      <section id="hero-section" className="hero-section">
+      <section className="pt-5 pb-5">
         <div className="container-fluid mt-3 md-3 ms-3 me-3">
           <div className="row align-items-center">
             <div className="col">
