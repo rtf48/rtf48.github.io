@@ -1,6 +1,11 @@
 import { createPortal } from "react-dom";
 import React, { useRef } from "react";
 
+/**
+ * A wrapper component for the ContactForm, which renders the button to open 
+ * the form, then a portal component containing the modal for the form itself.
+ * @returns {JSX.Element} - The rendered wrapper component.
+ */
 export default function ContactForm() {
   return (
     <>
@@ -18,6 +23,10 @@ export default function ContactForm() {
   );
 }
 
+/**
+ * A component for a resizable text input field. Compatible with web3forms.
+ * @returns {JSX.Element} - The rendered text input field.
+ */
 function ResizingMessageInput() {
   const textareaRef = useRef(null);
 
@@ -47,6 +56,12 @@ function ResizingMessageInput() {
   );
 }
 
+/**
+ * A component for the backend of the contact form. Compatible with web3forms.
+ * This component contains the input fields and submit button for the form, as
+ * well as the code for accessing the web3forms API.
+ * @returns {JSX.Element} - The rendered form.
+ */
 function FormBackend() {
 
   const formRef = useRef(null);
@@ -120,6 +135,12 @@ function FormBackend() {
   );
 }
 
+/**
+ * A component for the modal portal containing the contact form. This component
+ * uses the createPortal function from React to render the modal in the body
+ * element in order to avoid z-index issues.
+ * @returns {JSX.Element} - The rendered modal portal containing the contact form.
+ */
 function ContactFormPortal() {
   return createPortal(
     <div className="modal fade" id="contactModal" tabIndex="-1">

@@ -2,7 +2,12 @@ import React from "react";
 
 import ContactForm from "./ContactForm";
 
-
+/**
+ * A component that renders a scroll button. When clicked, it will scroll to the target element.
+ * @param {React.RefObject} param0.targetRef - The ref for the target element.
+ * @param {string} param0.label - The label for the button.
+ * @returns {JSX.Element} - The rendered scroll button.
+ */
 function ScrollButton({ targetRef, label }) {
   return (
     <button
@@ -19,6 +24,12 @@ function ScrollButton({ targetRef, label }) {
   );
 }
 
+/**
+ * A component that renders the navigation bar for the home page.
+ * @param {React.RefObject} param0.skillsRef - The ref for the skills section.
+ * @param {React.RefObject} param0.projectRef - The ref for the projects section.
+ * @returns {JSX.Element} - The rendered navigation bar.
+ */
 export default function HomeNavBar({ skillsRef, projectRef }) {
   return (
     <>

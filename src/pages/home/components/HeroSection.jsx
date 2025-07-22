@@ -1,5 +1,10 @@
 import heroImage from "../assets/react.svg"
 
+
+/**
+ * Renders the hero section of the home page.
+ * @returns {JSX.Element} - The rendered hero section.
+ */
 export default function HeroSection() {
   return (
     <>

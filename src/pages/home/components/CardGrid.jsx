@@ -1,6 +1,13 @@
 import skills from "../assets/skills.json";
 import sca from "../assets/747SCA.jpg";
 
+/**
+ * Renders a card with an image, title, and description, in that order
+ * @param {string} title - The title of the card.
+ * @param {string} description - The description of the card.
+ * @param {string} image - The image of the card.
+ * @returns {JSX.Element} - The rendered card.
+ */
 function SkillCard({ title, description, image }) {
   return (
     <div className="card h-100">
@@ -13,8 +20,11 @@ function SkillCard({ title, description, image }) {
   );
 }
 
+/**
+ * Renders a grid of SkillCard components, whose contents are read from skills.json.
+ * @returns {JSX.Element} - The rendered grid of cards.
+ */
 export default function CardGrid() {
-
   const images = import.meta.glob("../assets/*.jpg", { eager: true });
 
   return (
@@ -23,7 +33,7 @@ export default function CardGrid() {
         <div className="col" key={index}>
           <SkillCard
             title={skill.title}
-            description={skill.description} 
+            description={skill.description}
             image={images["../assets/" + skill.image].default}
           />
         </div>

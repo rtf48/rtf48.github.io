@@ -7,6 +7,12 @@ import CardGrid from "./components/CardGrid";
 import JumpableSection from "./components/JumpableSection";
 import BasicFooter from "../reusable-components/BasicFooter";
 
+
+/**
+ * The wrapper component for the homepage, containing a header, footer, and a
+ * number of sections to hold content.
+ * @returns {JSX.Element} - The rendered homepage.
+ */
 export default function Home() {
   const skillsRef = useRef(null);
   const projectRef = useRef(null);
