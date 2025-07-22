@@ -1,18 +1,27 @@
 import projects from "../assets/projects.json";
 
-function Project({ title, description, image }) {
+function Projects({title, description, image, index}) {
+
+  if (window.matchMedia("(min-width: 576px)").matches) {
+    return <AlternatingProjects title={title} description={description} image={image} index={index} />;
+  } else {
+    return <SingleProject title={title} description={description} image={image} index={index} />;
+  }
+}
+
+function SingleProject({ title, description, image, index }) {
   return (
     <>
-      <h2>{title}</h2>
+    <div className="col mt-5 mb-5">
+      <img src={image} alt={title} className="img-fluid rounded" />
+      <h3 className="mt-3 mb-2">{title}</h3>
       <p>{description}</p>
-      <div className="">
-        <img src={image} alt={title} className="img-fluid" />
-      </div>
-    </>
+    </div>
+  </>
   );
 }
 
-function AltnProjects({ title, description, image, index }) {
+function AlternatingProjects({ title, description, image, index }) {
 
 
   return (
@@ -54,7 +63,7 @@ export default function ProjectSection() {
     <>
       {projects.map((project, index) => (
         <div className="col" key={index}>
-          <AltnProjects
+          <Projects
             title={project.title}
             description={project.description}
             image={images["../assets/" + project.image].default}
