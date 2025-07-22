@@ -1,4 +1,4 @@
-import projects from "../../../assets/projects.json";
+import projects from "../assets/projects.json";
 
 function Project({ title, description, image }) {
   return (
@@ -13,6 +13,8 @@ function Project({ title, description, image }) {
 }
 
 function AltnProjects({ title, description, image, index }) {
+
+
   return (
     <>
       <div className="container-fluid g-0">
@@ -45,6 +47,9 @@ function AltnProjects({ title, description, image, index }) {
 }
 
 export default function ProjectSection() {
+
+  const images = import.meta.glob("../assets/*.jpg", { eager: true });
+
   return (
     <>
       {projects.map((project, index) => (
@@ -52,7 +57,7 @@ export default function ProjectSection() {
           <AltnProjects
             title={project.title}
             description={project.description}
-            image={project.image}
+            image={images["../assets/" + project.image].default}
             index={index}
           />
         </div>

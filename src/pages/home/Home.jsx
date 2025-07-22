@@ -5,11 +5,12 @@ import HeroSection from "./components/HeroSection";
 import ProjectSection from "./components/ProjectSection";
 import CardGrid from "./components/CardGrid";
 import JumpableSection from "./components/JumpableSection";
-import BasicFooter from "./components/BasicFooter";
+import BasicFooter from "../reusable-components/BasicFooter";
 
 export default function Home() {
   const skillsRef = useRef(null);
   const projectRef = useRef(null);
+
 
   return (
     <>

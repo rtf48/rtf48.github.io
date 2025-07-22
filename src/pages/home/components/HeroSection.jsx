@@ -1,3 +1,5 @@
+import heroImage from "../assets/react.svg"
+
 export default function HeroSection() {
   return (
     <>
@@ -13,7 +15,7 @@ export default function HeroSection() {
             <div className="col">
               <div className="hero-section-image">
                 <img
-                  src="src/assets/react.svg"
+                  src={heroImage}
                   className="img-fluid w-50 rounded"
                   alt="Hero Image"
                 />

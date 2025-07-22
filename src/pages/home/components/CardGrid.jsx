@@ -1,4 +1,5 @@
-import skills from "../../../assets/skills.json";
+import skills from "../assets/skills.json";
+import sca from "../assets/747SCA.jpg";
 
 function SkillCard({ title, description, image }) {
   return (
@@ -13,14 +14,17 @@ function SkillCard({ title, description, image }) {
 }
 
 export default function CardGrid() {
+
+  const images = import.meta.glob("../assets/*.jpg", { eager: true });
+
   return (
     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-4">
       {skills.map((skill, index) => (
         <div className="col" key={index}>
           <SkillCard
             title={skill.title}
-            description={skill.description}
-            image={skill.image}
+            description={skill.description} 
+            image={images["../assets/" + skill.image].default}
           />
         </div>
       ))}
