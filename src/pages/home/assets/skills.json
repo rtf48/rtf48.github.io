@@ -1,37 +1,42 @@
 [
   {
-    "image": "747SCA.jpg",
-    "title": "React Projects",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-  },
-  {
-    "image": "747SCA.jpg",
+    "image": "Scikit-learn-Logo.jpg",
     "title": "Machine Learning",
-    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Integer ac sem."
+    "description": "Machine learning models can make complex predictions that can be difficult for humans, making it an important part of many research and development projects today."
   },
   {
-    "image": "747SCA.jpg",
-    "title": "Machine Learning",
-    "description": "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus."
+    "image": "React-icon.png",
+    "title": "Web Development",
+    "description": "Web development uses HTML, CSS, and JavaScript, as well as libraries like React, to create dynamic and interactive websites."
   },
   {
-    "image": "747SCA.jpg",
-    "title": "Machine Learning",
-    "description": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla porttitor accumsan tincidunt."
+    "image": "sql-database.jpg",
+    "title": "SQL",
+    "description": "SQL is used to manage relational databases, making it one of the most widely used technologies in the world."
   },
   {
-    "image": "747SCA.jpg",
-    "title": "Machine Learning",
-    "description": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus."
+    "image": "solidworks.jpg",
+    "title": "CAD",
+    "description": "Computer aided design is used to design and simulate mechanical systems, making it an important skill for engineering and manufacturing."
   },
   {
-    "image": "747SCA.jpg",
-    "title": "Machine Learning",
-    "description": "Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus."
+    "image": "java-logo.png",
+    "title": "Java",
+    "description": "One of the most commonly employed object-oriented programming languages, Java uses a virtual machine to support a write once, run anywhere policy."
   },
   {
-    "image": "747SCA.jpg",
-    "title": "Game Dev Experiments",
-    "description": "Phasellus blandit leo ut odio. Etiam porta sem malesuada magna mollis euismod."
+    "image": "python-logo.png",
+    "title": "Python",
+    "description": "A high level, interpreted language, Python is popular because of its ease of use, clean syntax, and large standard library."
+  },
+  {
+    "image": "c.jpg",
+    "title": "C",
+    "description": "A low level, compiled language, C is used because of its speed and control even compared with newer languages."
+  },
+  {
+    "image": "javascript-logo.png",
+    "title": "JavaScript",
+    "description": "JavaScript is used in web development alongside HTML and CSS, making it a part of nearly every website (including this one)."
   }
 ]

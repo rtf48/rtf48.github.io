@@ -25,7 +25,7 @@ function SkillCard({ title, description, image }) {
  * @returns {JSX.Element} - The rendered grid of cards.
  */
 export default function CardGrid() {
-  const images = import.meta.glob("../assets/*.jpg", { eager: true });
+  const images = import.meta.glob("../assets/*", { eager: true });
 
   return (
     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-4">

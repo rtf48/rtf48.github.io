@@ -91,7 +91,7 @@ function AlternatingProjects({ title, description, image, index }) {
  */
 export default function ProjectSection() {
 
-  const images = import.meta.glob("../assets/*.jpg", { eager: true });
+  const images = import.meta.glob("../assets/*", { eager: true });
 
   return (
     <>

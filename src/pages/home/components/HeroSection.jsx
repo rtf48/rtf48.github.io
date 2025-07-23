@@ -1,4 +1,4 @@
-import heroImage from "../assets/react.svg"
+import heroImage from "../assets/me.webp"
 
 
 /**
@@ -14,7 +14,7 @@ export default function HeroSection() {
             <div className="col">
               <div className="hero-section-text">
                 <h1 className="text-end">Richard Fischer</h1>
-                <p className="text-end">Software developer for Java, JavaScript, Python, and C#</p>
+                <p className="text-end">Computer science graduate with an interest in machine learning, aerospace, and more</p>
               </div>
             </div>
             <div className="col">

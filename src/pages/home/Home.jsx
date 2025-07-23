@@ -11,7 +11,7 @@ import BasicFooter from "../reusable-components/BasicFooter";
 /**
  * The wrapper component for the homepage, containing a header, footer, and a
  * number of sections to hold content.
- * @returns {JSX.Element} - The rendered homepage.
+ * @returns 
  */
 export default function Home() {
   const skillsRef = useRef(null);
